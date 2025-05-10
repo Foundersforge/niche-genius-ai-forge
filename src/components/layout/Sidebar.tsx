@@ -11,7 +11,7 @@ import {
   Users, 
   ArrowLeft, 
   ArrowRight, 
-  Trending, 
+  TrendingUp, 
   Wand,
   Globe
 } from "lucide-react";
@@ -56,7 +56,7 @@ export function Sidebar({ className }: SidebarProps) {
     },
     {
       name: "Trend Alerts",
-      icon: Trending,
+      icon: TrendingUp,
       path: "/trends",
     },
     {

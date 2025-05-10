@@ -1,5 +1,4 @@
-
-import { ChartBar, Package, Search, Trending } from "lucide-react";
+import { ChartBar, Package, Search, TrendingUp } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
@@ -128,7 +127,7 @@ export default function Dashboard() {
           title="Trending Products"
           value="347"
           description="in the last 30 days"
-          icon={<Trending className="h-4 w-4" />}
+          icon={<TrendingUp className="h-4 w-4" />}
           trend={{ value: 8, isPositive: true }}
         />
         <StatsCard

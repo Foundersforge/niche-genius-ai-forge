@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
@@ -9,6 +8,7 @@ import { Select, SelectContent, SelectGroup, SelectItem, SelectTrigger, SelectVa
 import { Progress } from "@/components/ui/progress";
 import { Badge } from "@/components/ui/badge";
 import { Wand, Image, FileText, Package, Check } from "lucide-react";
+import { Checkbox } from "@/components/ui/checkbox";
 
 export default function Generator() {
   const [isGenerating, setIsGenerating] = useState(false);
