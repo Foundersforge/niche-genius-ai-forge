@@ -1,3 +1,9 @@
+/**
+ * Competitors.tsx
+ * 
+ * This page displays competitor analysis tools and information.
+ * It allows users to track and analyze competing products in the marketplace.
+ */
 
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";

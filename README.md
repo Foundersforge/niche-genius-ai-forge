@@ -1,73 +1,86 @@
-# Welcome to your Lovable project
 
-## Project info
+# AI Product Lab
 
-**URL**: https://lovable.dev/projects/f7fa9fb1-e064-4a9f-b6ed-5b7268a69128
+AI Product Lab is a powerful web application for digital product market research, analysis, and generation.
 
-## How can I edit this code?
+## 🚀 Super Easy Setup Guide for Beginners
 
-There are several ways of editing your application.
+Don't worry if you're new to coding - we've made this super simple!
 
-**Use Lovable**
+### 👵 Grandma-Friendly Installation
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/f7fa9fb1-e064-4a9f-b6ed-5b7268a69128) and start prompting.
+1. **Get the code**
+   - Click the green "Code" button above
+   - Select "Download ZIP"
+   - Extract the ZIP file to your computer
 
-Changes made via Lovable will be committed automatically to this repo.
+2. **Install Node.js** 
+   - Go to [nodejs.org](https://nodejs.org)
+   - Download the "LTS" version (the big green button)
+   - Install it by clicking "Next" on all screens
 
-**Use your preferred IDE**
+3. **Open a command prompt in the project folder**
+   - On Windows: Shift + Right-click in the folder → "Open PowerShell window here"
+   - On Mac: Open Terminal → drag the folder into Terminal → press Enter
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+4. **Install the project**
+   - Type this command and press Enter:
+   ```
+   npm install
+   ```
+   - Wait for it to finish (might take a few minutes)
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+5. **Start the website on your computer**
+   - Type this command and press Enter:
+   ```
+   npm run dev
+   ```
+   - Open your web browser and go to: http://localhost:8080
 
-Follow these steps:
+### 🌎 Making Your Site Live on the Internet
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+#### Option 1: Using Lovable (Easiest)
+- Go to [lovable.dev](https://lovable.dev) and sign in
+- Open your project
+- Click "Share" → "Publish" and follow the simple instructions
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+#### Option 2: Using Netlify (Also very easy)
+1. Create a free account at [netlify.com](https://netlify.com)
+2. Click "Add new site" → "Import an existing project"
+3. Connect to GitHub or drag-and-drop your project folder
+4. Keep all settings as they are and click "Deploy site"
+5. Wait a few minutes, and your site will be live!
 
-# Step 3: Install the necessary dependencies.
-npm i
+For more detailed information, please see the [SETUP_GUIDE.md](SETUP_GUIDE.md) file.
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+## 🧩 Project Features
 
-**Edit a file directly in GitHub**
+- Dashboard with market analytics
+- AI content generation
+- Competitor analysis tools
+- Trending niche discovery
+- Digital product creation
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
+## 👩‍💻 For Developers
 
 This project is built with:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+- React + TypeScript
+- Tailwind CSS for styling
+- shadcn/ui component library
+- React Query for data fetching
+- React Router for navigation
 
-## How can I deploy this project?
+## 📝 Custom Domain Setup
 
-Simply open [Lovable](https://lovable.dev/projects/f7fa9fb1-e064-4a9f-b6ed-5b7268a69128) and click on Share -> Publish.
+To connect your own domain name:
+1. Go to Project > Settings > Domains in Lovable
+2. Click "Connect Domain"
+3. Follow the instructions to set up DNS records
 
-## Can I connect a custom domain to my Lovable project?
+## 🤔 Need Help?
 
-Yes, you can!
+- Check out [docs.lovable.dev](https://docs.lovable.dev)
+- Join our community on [Discord](https://discord.gg/lovable)
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Enjoy your new AI Product Lab!

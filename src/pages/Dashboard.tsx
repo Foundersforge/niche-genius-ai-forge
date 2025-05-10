@@ -1,3 +1,10 @@
+/**
+ * Dashboard.tsx
+ * 
+ * This is the main dashboard page that displays various analytics and insights.
+ * It includes trend data, statistics, product cards, and links to other features.
+ */
+
 import { ChartBar, Package, Search, TrendingUp } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
