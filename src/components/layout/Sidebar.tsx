@@ -17,11 +17,11 @@ import {
 } from "lucide-react";
 import { NavLink } from "react-router-dom";
 
-type SidebarProps = {
+type AppSidebarProps = {
   className?: string;
 };
 
-export function Sidebar({ className }: SidebarProps) {
+export function AppSidebar({ className }: AppSidebarProps) {
   const [collapsed, setCollapsed] = useState(false);
 
   const toggleCollapse = () => {
