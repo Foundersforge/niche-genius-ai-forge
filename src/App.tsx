@@ -1,26 +1,35 @@
-import { Toaster } from "@/components/ui/toaster";
-import { Toaster as Sonner } from "@/components/ui/sonner";
-import { TooltipProvider } from "@/components/ui/tooltip";
+
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Index from "./pages/Index";
+import { Toaster } from "@/components/ui/sonner";
+import { MainLayout } from "./components/layout/MainLayout";
+import Dashboard from "./pages/Dashboard";
+import Generator from "./pages/Generator";
+import Competitors from "./pages/Competitors";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
 
 const App = () => (
   <QueryClientProvider client={queryClient}>
-    <TooltipProvider>
-      <Toaster />
-      <Sonner />
-      <BrowserRouter>
+    <BrowserRouter>
+      <MainLayout>
         <Routes>
-          <Route path="/" element={<Index />} />
-          {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
+          <Route path="/" element={<Dashboard />} />
+          <Route path="/generator" element={<Generator />} />
+          <Route path="/competitors" element={<Competitors />} />
+          {/* Placeholder routes for future implementation */}
+          <Route path="/research" element={<Dashboard />} />
+          <Route path="/products" element={<Dashboard />} />
+          <Route path="/trends" element={<Dashboard />} />
+          <Route path="/store" element={<Dashboard />} />
+          <Route path="/settings" element={<Dashboard />} />
+          {/* Catch-all route */}
           <Route path="*" element={<NotFound />} />
         </Routes>
-      </BrowserRouter>
-    </TooltipProvider>
+      </MainLayout>
+      <Toaster />
+    </BrowserRouter>
   </QueryClientProvider>
 );
 
